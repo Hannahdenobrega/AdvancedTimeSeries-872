@@ -282,7 +282,7 @@ end
 # ╔═╡ 169fbcea-4e82-4756-9b4f-870bcb92cb93
 md"""
 
-A likelihood function would return a higher value for the proposed density in the case of the good guess. There are many functions that we could use to determine wheter proposed model unknowns result in a better fit. Likelihood functions are one particular approach. Like we mentioned before, these likelihood functions represent a data generating process. The assumption is that the proposed generative distribution gave rise to the data in question. We will continue this discussion a bit later on.  
+A likelihood function would return a higher value for the proposed density in the case of the good guess. There are many functions that we could use to determine whether proposed model unknowns result in a better fit. Likelihood functions are one particular approach. Like we mentioned before, these likelihood functions represent a data generating process. The assumption is that the proposed generative distribution gave rise to the data in question. We will continue this discussion a bit later on.  
 
 """
 
@@ -684,21 +684,6 @@ b>0 \text { shape (real) }
 
 # ╔═╡ 68bb2bfb-6643-4f59-9d2b-c59fd1dc3273
 md"""
-In the case of the Beta distribution the prior mean is given above as 
-
-$\frac{a}{a + b}$
-
-The prior mean will, by the fact that the prior is conjugate, also translate to a posterior distribution that has a Beta functional form. Therefore, if you choose the values for $a$ and $b$ properly you are in fact stating something about $\mathbb{E}(\theta)$.
-
-Suppose you believe that $\mathbb{E}(\theta) = 1/2$. This can be obtained by setting $a = b$. 
-
-As an example, set $a = b = 2$, then we have 
-
-$\mathbb{E}(\theta) = \frac{2}{2+2} = 1/2$
-
-We could also choose a completely noninformative prior with $a = b = 1$, which implies that $p(\theta) \propto 1$. This is simply a uniform distribution over the interval $[0, 1]$. Every value for $\theta$ receives the same probability. 
-
-Obviously there are multiple values of $a$ and $b$ will work, play around with the sliders above to see what happens for a choice of different $a$ and $b$ under this restriction for the expected value of $\theta$.
 In the case of the Beta distribution the prior mean is given above as 
 
 $\frac{a}{a + b}$
