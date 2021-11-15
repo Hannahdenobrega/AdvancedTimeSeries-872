@@ -661,7 +661,7 @@ Plots.plot(
 )
 
 # ╔═╡ d172fe2c-d842-4c6a-9097-3a0e51058bb0
-md""" Now to get the posterior we will combine the likelihood function and posterior, 
+md""" Now to get the posterior we will combine the likelihood function and prior, 
 
 $$\begin{align}
 p(\sigma^2|\mathbf{Y}) &\propto p(\mathbf{Y}|\sigma^2) p(\sigma^2)\\
