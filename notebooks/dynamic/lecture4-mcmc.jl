@@ -162,13 +162,11 @@ md" > Narrative for this section taken directly from [this book](https://rpruim.
 
 # ╔═╡ e9868be9-2c58-45ef-96ad-0a016fdca540
 md"""
-King Markov is king of a **chain of 10 islands**. Rather than live in a palace, he lives in a royal boat. Each night the royal boat anchors in the harbor of one of the islands. The law declares that the king must harbor at each island in proportion to the population of the island.
-
-The islands have different population sizes, some small and some larger. The contract that King Markov has with his people is that he must visit each island in proportion to its population size. 
+King Markov is king of a **chain of 10 islands**. Rather than live in a palace, he lives in a royal boat. Each night the royal boat anchors in the harbor of one of the islands. The law declares that the king must harbor at each island in proportion to the population of the island. The islands have different population sizes, some small and some larger. 
 
 King Markov is a peculiar man though, here are **some of his quirks**. 
 
-1. He can’t stand record keeping (partially because he is not numerate). So he doesn’t know the populations on his islands and doesn’t keep track of which islands he has visited when.
+1. He can’t stand record keeping (partially because he is not numerate). So he doesn’t know the populations of his islands and doesn’t keep track of which islands he has visited when.
 
 2. He can’t stand routine (variety is the spice of his life), so he doesn’t want to know each night where he will be the next night.
 
