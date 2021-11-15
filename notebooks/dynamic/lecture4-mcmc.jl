@@ -1020,7 +1020,7 @@ end
 
 # ╔═╡ 70a1198f-05e5-40f0-8f95-c0056c55cf05
 begin
-	# Mean measures for Monte Carlo integration
+	# Mean measures for Gibbs Sampler
 	
 	gibbs_θ = gibbs_sampler(r₁, ρ₁)[1] ./ r₁
 	gibbs_θ2 = gibbs_sampler(r₁, ρ₁)[2] ./ r₁
