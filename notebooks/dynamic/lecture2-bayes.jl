@@ -179,7 +179,7 @@ where $\mu$, $\alpha$ and $\sigma^{2}$ are parameters in a vector $\theta$. In t
 
 Unobserved variables are usually called **parameters** and can be inferred from other variables. $\theta$ represents the unobservable parameter of interest, where $y$ is the observed data. 
 
-Bayesian conclusions about the parameter $\theta$ is made in terms of **probability statements**. Statements are conditional on the observed values of $y$ and can be written $p(\theta \mid y)$: given the data, what do we know about $\theta$? 
+Bayesian conclusions about the parameter $\theta$ are made in terms of **probability statements**. Statements are conditional on the observed values of $y$ and can be written $p(\theta \mid y)$: given the data, what do we know about $\theta$? 
 
 **Notation remark**: You will see that we have switched to a small letter $p$ for probability distribution of a random variable. Previously we have used a capital $P$ to relate probability of events. You will often see probability of events written as $\mathbb{P}$ in textbooks as well. 
 
